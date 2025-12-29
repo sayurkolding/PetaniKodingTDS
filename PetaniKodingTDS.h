@@ -22,8 +22,6 @@ public:
     void begin();
     void update();
     float getTdsValue();
-
-    // ===== TAMBAHAN UNTUK KEYPAD + LCD =====
     void beginCalibration();                  // masuk mode kalibrasi
     bool setCalibration(float tds);    // kalibrasi pakai nilai TDS
     void endCalibration();                    // simpan & keluar
